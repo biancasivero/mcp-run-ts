@@ -1,0 +1,9 @@
+{
+  "name": "puppeteer-github-server",
+  "description": "Combined MCP server with Puppeteer and GitHub tools",
+  "command": "node",
+  "args": ["/Users/phiz/Desktop/mcp/mcp-run-ts/build/index.js"],
+  "env": {
+    "GITHUB_TOKEN": ""
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "@mcp/puppeteer-server",
+  "version": "1.0.0",
+  "description": "MCP Puppeteer server for web automation in Claude Code",
+  "type": "module",
+  "main": "build/index.js",
+  "bin": {
+    "mcp-puppeteer": "build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "@modelcontextprotocol/server-github": "^2025.4.8",
+    "@modelcontextprotocol/server-puppeteer": "^2025.5.12",
+    "@octokit/rest": "^22.0.0",
+    "@types/puppeteer": "^5.4.7",
+    "puppeteer": "^24.10.0"
+  },
+  "devDependencies": {
+    "@types/eventsource": "^1.1.15",
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "puppeteer",
+    "web-automation",
+    "browser-automation"
+  ],
+  "license": "MIT"
+}
